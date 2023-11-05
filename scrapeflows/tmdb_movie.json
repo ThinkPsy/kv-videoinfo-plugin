@@ -20,7 +20,7 @@
     },
     {
       "http": {
-        "url": "https://api.tmdb.org/3/search/movie?api_key={apikey}&language={lang}&query={title}&year={year}&page=1",
+        "url": "https://api.tmdb.org/3/search/movie?api_key={apikey}&language={lang}&query={title}&year={year}&page=1&include_adult=true",
         "method": "GET",
         "headers": {
           "Accept": "application/json"
